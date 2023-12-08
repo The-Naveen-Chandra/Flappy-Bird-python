@@ -1,16 +1,41 @@
-# This is a sample Python script.
+import pygame
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import assets
+import configs
+from objects.background import Background
+from objects.column import Column
+from objects.floor import Floor
 
+pygame.init()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+screen = pygame.display.set_mode((configs.SCREEN_WIDTH, configs.SCREEN_HEIGHT))
+clock = pygame.time.Clock()
+column_create_event = pygame.USEREVENT
+running = True
 
+assets.load_sprites()
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+sprites = pygame.sprite.LayeredUpdates()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Background(0, sprites)
+Background(1, sprites)
+Floor(0, sprites)
+Floor(1, sprites)
+
+pygame.time.set_timer(column_create_event, millis=1500)
+
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == column_create_event:
+            Column(sprites)
+
+    screen.fill("pink")
+
+    sprites.draw(screen)
+    sprites.update()
+
+    pygame.display.flip()
+    clock.tick(configs.FPS)
+pygame.quit()
