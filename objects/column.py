@@ -32,6 +32,9 @@ class Column(pygame.sprite.Sprite):
         max_y = configs.SCREEN_HEIGHT - sprite_floor_height - 100
 
         self.rect = self.image.get_rect(midleft=(configs.SCREEN_WIDTH, random.uniform(min_y, max_y)))
+        self.mask = pygame.mask.from_surface(self.image)
+
+        self.passed = False
 
         super().__init__(*groups)
 
@@ -40,3 +43,9 @@ class Column(pygame.sprite.Sprite):
 
         if self.rect.right <= 0:
             self.kill()
+
+    def is_passed(self):
+        if self.rect.x < 50 and not self.passed:
+            self.passed = True
+            return True
+        return False
