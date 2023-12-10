@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9378c90-6acf-46d8-937c-ada9df79fba0" name="Changes" comment="Added In game audio for better user experience">
+    <list default="true" id="e9378c90-6acf-46d8-937c-ada9df79fba0" name="Changes" comment="Dev: Game start &amp; Game over message and Score functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/bird.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/bird.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,15 +135,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702197291157</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added In game audio for better user experience">
-      <option name="closed" value="true" />
-      <created>1702209789120</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1702209789120</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +154,6 @@
     <MESSAGE value="Dev: background, floor and column functions" />
     <MESSAGE value="Dev: Bird styling and its function" />
     <MESSAGE value="Dev: Game start &amp; Game over message and Score functionality" />
-    <MESSAGE value="Added In game audio for better user experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added In game audio for better user experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev: Game start &amp; Game over message and Score functionality" />
   </component>
 </project>
