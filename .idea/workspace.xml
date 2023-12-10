@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9378c90-6acf-46d8-937c-ada9df79fba0" name="Changes" comment="Assets are added">
-      <change afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/background.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/bird.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/column.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/floor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/game_over_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/game_start_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="e9378c90-6acf-46d8-937c-ada9df79fba0" name="Changes" comment="Dev: Bird styling and its function">
+      <change beforePath="$PROJECT_DIR$/objects/column.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/column.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/game_over_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/game_over_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/game_start_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/game_start_message.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ZFLHpj1077wQW9ksw2pmbOGxbb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702013639971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dev: background, floor and column functions">
+      <option name="closed" value="true" />
+      <created>1702036251333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702036251333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dev: Bird styling and its function">
+      <option name="closed" value="true" />
+      <created>1702197090070</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702197090070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Assets are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assets are added" />
+    <MESSAGE value="Dev: background, floor and column functions" />
+    <MESSAGE value="Dev: Bird styling and its function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev: Bird styling and its function" />
   </component>
 </project>
