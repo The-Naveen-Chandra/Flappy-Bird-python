@@ -40,6 +40,7 @@ class Bird(pygame.sprite.Sprite):
         if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
             self.flap = 0
             self.flap -= 6
+            assets.play_audio("wing")
 
     def check_collision(self, sprites):
         for sprite in sprites:

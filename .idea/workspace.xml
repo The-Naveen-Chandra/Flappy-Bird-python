@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9378c90-6acf-46d8-937c-ada9df79fba0" name="Changes" comment="Dev: Bird styling and its function">
-      <change beforePath="$PROJECT_DIR$/objects/column.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/column.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/game_over_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/game_over_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/game_start_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/game_start_message.py" afterDir="false" />
+    <list default="true" id="e9378c90-6acf-46d8-937c-ada9df79fba0" name="Changes" comment="Dev: Game start &amp; Game over message and Score functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/bird.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/bird.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702197090070</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dev: Bird styling and its function">
+      <option name="closed" value="true" />
+      <created>1702197245799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702197245799</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dev: Game start &amp; Game over message and Score functionality">
+      <option name="closed" value="true" />
+      <created>1702197291157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702197291157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +153,7 @@
     <MESSAGE value="Assets are added" />
     <MESSAGE value="Dev: background, floor and column functions" />
     <MESSAGE value="Dev: Bird styling and its function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dev: Bird styling and its function" />
+    <MESSAGE value="Dev: Game start &amp; Game over message and Score functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev: Game start &amp; Game over message and Score functionality" />
   </component>
 </project>
